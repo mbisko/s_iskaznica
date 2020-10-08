@@ -1,0 +1,55 @@
+<!DOCTYPE Html>
+<html long="en">
+    <head>
+        <meta charset="utf-8">
+       
+        <link href="css/stil.css" type="text/css" rel="stylesheet" />
+      
+        <script type="text/javascript" src="js/main.js"></script>
+        <link rel="stylesheet"href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"/>
+        
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>
+            Studentska iskaznica</title>
+        </head>
+        <body>
+        <div id="app">
+           
+            <h2>Osobni podaci</h2>
+            <table>
+                <tr><div><label>Unesite ime: </label> 
+                    <input type="text" id="name"></div><br></tr>
+                    <tr><div><label>Unesite prezime: </label> 
+                    <input type="text" id="lastname" ></div><br></tr>
+                    <tr><div> <label>Unesite studij : </label> 
+                    <input type="text" id="study"></div><br></tr>
+                    <tr><div><label>Rodendan</label>
+                    <input type="date" name="date" id="date" min="1970-12-31"  max="2000-12-31" ></div></tr>
+                    <div type="number" name="number" id="number"  ></div></tr>
+                    <button id="btn">Upiši</button>
+                   
+
+            </table>
+            <div id="app">
+                <form id="forma">
+                    <div class="container">
+                      <div class="st"><b>STUDENT IDENTITY CARD</b></div>
+                       <div class="lijevo">
+                           <br>
+                           <img id="slika" src="img/person.jpg">
+                           <p ><b>STUDENT</b></p>
+                        </div>
+    
+                       <div class="desno">
+                        <div id="name_"><b>Ime: </b><br></div>
+                        <div id="lastname_"><b>Prezime: </b><br></div>
+                        <div id="study_"><b>Studij: </b><br></div>
+                        <div id="birth_"><b>Rođenje: </b></div>
+                        <div id="number_"><b>Br. iskaznice: </b></div>
+                        </div>
+                    </div>
+                   </form>        
+        </div>
+        </body>
+   
+</html>

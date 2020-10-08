@@ -1,0 +1,46 @@
+.container
+{
+    border: 2px solid black;
+    margin: 150px auto;
+    min-height: 200px;
+    width: 370px;
+    height: 250px;
+    overflow: hidden;
+    background-color: #5969fd;
+   
+}
+.lijevo
+{
+    float: left;
+    width: 130px;
+    padding: 0px 10px;
+    padding-right:15px;
+}
+
+.desno
+{
+    width: 210px;
+    float: right;
+    padding-top: 50px;
+}
+
+.st
+{
+    padding-top: 20px;
+    text-align: center;
+    background-color: #5caffd;
+
+  
+}
+p{
+    text-align: center;
+    font: fantasy;
+}
+#slika
+{
+    width: 130px;
+    height: 130px;
+    border: 2px solid rgb(0, 0, 0);
+    
+};
+
